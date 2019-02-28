@@ -45,7 +45,7 @@ const loadContract = async () => {
   return contract;
 };
 
-const setClaim = async () => {
+const getClaim = async () => {
     const account = await accountDecrypt();
     const contract = await loadContract();
   
@@ -56,6 +56,6 @@ const setClaim = async () => {
     return receipt;
 };
 
-setClaim()
+getClaim()
   .then(res => console.log(res))
   .catch(error => console.log(error));
