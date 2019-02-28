@@ -1,0 +1,29 @@
+{
+  "name": "evmlitetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deployOnNode0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mushroom0117/EVMLiteTest.git"
+  },
+  "author": "Junwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mushroom0117/EVMLiteTest/issues"
+  },
+  "homepage": "https://github.com/mushroom0117/EVMLiteTest#readme",
+  "dependencies": {
+    "evm-lite-lib": "^0.2.12",
+    "solc": "^0.4.25",
+    "web3-eth-accounts": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
